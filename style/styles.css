@@ -1,0 +1,341 @@
+
+@import url('reset.css');
+/* NAVBAR */
+#navbar{
+     height: 75px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+#navbar > div{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex: 1;
+}
+#homeBanner{
+     background-image: url("/images/banner1.png");
+     background-position: center right;
+     background-repeat: no-repeat;
+     
+}
+
+
+.first-section {
+     padding-top: calc(75px + 3rem);
+     padding-bottom: 3rem;
+}
+
+.section {
+     padding: 2rem 0;
+}
+/* HOME  */
+.info-section{
+     position: relative;
+}
+.info-section img{
+     position: absolute;
+     right: -20%;
+}
+.separator-container{
+     position: relative;
+     align-items: center;
+}
+.separator{
+     height: 80%;
+     position: absolute;
+     background-color: #000;
+     width: 1px;
+     left: -2%;
+     top: 15%;
+     opacity: 0.5;
+}
+.courseBox {
+     background-size: cover;
+     background-position: center;
+     height: 10em;
+     border-radius: 10px;
+}
+
+.sliderRow {
+     display: flex;
+     align-items: center;
+     flex-wrap: nowrap;
+     flex-direction: row;
+     
+}
+.color-accent{
+     color: #6ABDB8;
+}
+ 
+.starRating *{
+     font-size: 10px;
+     margin-right: 0.4em;
+}
+
+.classBox {
+     height: 20em;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+.servicesContainer{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 1rem;
+     padding: 1em;
+}
+.promoContainer, .offersContainer{
+     padding: 1em;
+     display: flex;
+     flex-direction: row;
+     gap: 1em;
+     flex-wrap: nowrap;
+}
+.promoContainer > div{
+     display: inline-block;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 100%;
+     width: 40%;
+     
+}
+.offersContainer > div{
+     min-width: 45%;
+}
+.serviceIcon{
+     display: block;
+     border : 1px solid;
+     padding: 2em;
+     margin-bottom: 2em;
+}
+.offerBox{
+     position: relative;
+     overflow: hidden;
+}
+.offerImage{
+     position: absolute;
+     bottom: 0;
+     right: -50px;
+}
+.reach-separator{
+     position: relative;
+}
+.reach-separator::after{
+     position: absolute;
+     content: "";
+     height: 100%;
+     width: 1px;
+     background-color: #20205050;
+     display: inline-block;
+     right: 0;
+}
+.testimonial-box{
+     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.testimonialBox{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     margin-top: 10px;
+
+}
+.testimonialBox div{
+     padding: 10px 5px
+}
+.testimonial-selector{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     gap: 10px;
+     position: relative;
+}
+
+.testimonial-selector img{
+     border-radius: 50%;
+     cursor: pointer;
+     padding: 5px;
+
+}
+.testimonial-selector img:hover{
+     border: salmon 2px dashed;
+     padding: 5px;
+}
+.testimonial-selector img.faded-img{
+     width: 25px;
+     opacity: 0.3;
+}
+.testimonial-selector img.sub-img{
+     width: 50px;
+     opacity: 0.7;
+}
+.testimonial-selector img.selected-img{
+     width: 90px;
+     position: relative;
+     border: salmon 1px dashed;
+     padding: 5px;
+}
+
+.testimonial-selector-arrows{
+     height: 100%;
+     position: absolute;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+}
+.testimonial-selector-arrows button{
+     border: none;
+     background-color: transparent;
+}
+.testimonial-content{
+     border-left: #D7EDEC 1px solid;
+}
+.testimonial-user{
+     background-color: #D7EDEC;
+
+}
+
+.button-video{
+     display: flex;
+     height: 100%;
+     margin-left: 20px;
+     overflow: visible;
+
+}
+.button-video button{
+     height: 35px;
+     width: 35px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #69BCB7;
+     position: relative;
+     overflow: visible;
+     z-index: 3;
+     border: none;
+}
+.button-video button i{
+     font-size: 14px;
+     z-index: 3;
+
+}
+.button-video button::after{
+     content: "";
+     height: 45px ;
+     width: 45px;
+     background-color: #69BCB7;
+     position: absolute;
+     opacity: 0.4;
+     border-radius: 100%;
+     z-index: 2;
+     border: none;
+}
+.button-video button::before{
+     content: "";
+     height: 55px ;
+     width: 55px;
+     background-color: #69BCB7;
+     position: absolute;
+     opacity: 0.2;
+     border-radius: 100%;
+     border: none;
+     z-index: 1;
+}
+.overlay-video-player{
+     width: 100vw;
+     height: 100vh;
+     display: none;
+     justify-content: center;
+     align-items: center;
+     position: fixed;
+     z-index: 10;
+     background-color: #000000bf;
+}
+.video-player{
+     height: 100%;
+     width: 100%;
+     max-width: 720px;
+     max-height: 480px;
+     position: relative;
+}
+.video-player iframe{
+     width: 100%;
+     height: 100%;
+}
+.modal-video-close-btn{
+     position: absolute;
+     top: -20px;
+     right: -20px;
+     background-color: transparent;
+     border: none;
+     color: white;
+}
+.serviceIcon i{
+     font-size: 30px;
+}
+.service-container{
+     height: fit-content;
+     overflow: hidden;
+}
+
+.offersContainer,#homeBanner, .service-container{
+     position: relative;
+}
+.offersContainer .assets-line{
+     position: absolute;
+     height: 100px;
+     left: -25px;
+     transform: rotate(45deg);
+}
+.service-container .assets-circles{
+     position: absolute;
+     bottom: -80px;
+     height: 150px;
+}
+
+#homeBanner .assets-circles{
+     position: absolute;
+     height: 300px;
+     right: -150px;
+     top: -200px
+}
+.global-info h2{
+     font-size: 2.5em;
+     font-family: "Montserrat", sans-serif;
+}
+@media (max-width: 768px) {
+     #homeBanner{
+          background-image: none;
+     }
+     .servicesContainer{
+          grid-template-columns: repeat(1, 1fr);
+     }
+     .testimonial-selector{
+          flex-direction: row;
+     }
+     .testimonial-selector-arrows{
+          height: 50%;
+          width: 95%;
+          flex-direction: row;
+     }
+     .testimonial-selector img.faded-img{
+          width: 20px;
+     }
+     .testimonial-selector img.sub-img{
+          width: 40px;
+     }
+     .testimonial-selector img.selected-img{
+          width: 60px;
+     }
+     .testimonial-content {
+          border-top: #D7EDEC 1px solid;
+          border-left: none;
+     }
+     .offersContainer > div {
+          min-width: 100%;
+        }
+        .reach-separator{
+          margin-right: 0;
+        }
+ }

@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- import css from style folder -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style/styles.css" />
+    <!-- fontawesome icons cdn  -->
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="App">
+      <div id="video-player-container" class="overlay-video-player">
+        <div class="video-player">
+          <button
+            class="modal-video-close-btn"
+            aria-label="Fermer"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="Fermer"
+            id="video-player-close"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <iframe
+            src="//player.vimeo.com/video/127203262?api=false&amp;autopause=true&amp;autoplay=true&amp;byline=true&amp;loop=false&amp;portrait=true&amp;title=true&amp;xhtml=false"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen=""
+            tabindex="-1"
+            width="460"
+            height="230"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </div>
+      <!-- navbar  -->
+
+      <!-- end of navbar -->
+      <div class="container border first-section">
+        <!-- banner -->
+        <div class="row" id="homeBanner">
+          <img src="/images/circles.png" class="assets-circles" />
+          <div class="col-12 col-md-7">
+            <div class="first-section-text">
+              <h2>Learn Digital <span style="color: #ed553e">Skills</span></h2>
+              <h2>To Boost Your Career</h2>
+
+              <p class="mt-4 mt-md-4 fs-6">
+                Online courses from the world's leading expers.
+                <br />
+                Join 20 millions learners today.
+              </p>
+              <div class="d-flex my-4">
+                <img
+                  src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=2000"
+                  alt="portrait"
+                  width="25px"
+                  class="rounded-circle mr-2"
+                />
+                <img
+                  src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=2000"
+                  alt="portrait"
+                  width="25px"
+                  class="rounded-circle mr-2"
+                />
+                <img
+                  src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=2000"
+                  alt="portrait"
+                  width="25px"
+                  class="rounded-circle mr-2"
+                />
+                <img
+                  src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=2000"
+                  alt="portrait"
+                  width="25px"
+                  class="rounded-circle mr-2"
+                />
+                <img
+                  src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=2000"
+                  alt="portrait"
+                  width="25px"
+                  class="rounded-circle mr-2"
+                />
+                <p class="ml-2">20 Verified Mentors</p>
+              </div>
+              <div class="d-flex align-items-center mt-4">
+                <button class="btn btn-primary p-3 px-4 rounded-0">
+                  Get Started
+                  <i class="fa fa-arrow-right-long ml-2" aria-hidden="true"></i>
+                </button>
+                <span class="button-video d-flex align-items-center">
+                  <button
+                    class="btn rounded-circle btn-primary border-none"
+                    id="video-player-open"
+                  >
+                    <i class="fa fa-play" aria-hidden="true"></i>
+                  </button>
+                  <p class="ml-3">How it works</p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end Banner -->
+        <!-- info section -->
+        <div class="row p-md-4 p-2 mt-5 bg-white shadow">
+          <div class="col-md-5">
+            <div class="row">
+              <div class="col-3">
+                <!-- portrait img on unsplash -->
+                <img
+                  src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=2000"
+                  alt="portrait"
+                  width="100%"
+                />
+              </div>
+              <div class="col-9 d-flex flex-column justify-content-between">
+                <p class="fst-italic">
+                  "I am so happy because I found this course. It helped me to
+                  start my own business, and now I am so successful."
+                </p>
+                <p class="mt-md-0 mt-2">
+                  <strong> John Doe </strong>- <em> CEO, ABC </em>:<span>
+                    5896255
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-5 d-flex justify-content-between info-section">
+            <div
+              class="col d-flex justify-content-between flex-column separator-container"
+            >
+              <h2>5k</h2>
+              <p class="fw-bold">Online Courses</p>
+            </div>
+            <div
+              class="col d-flex justify-content-between flex-column separator-container"
+            >
+              <h2>5k</h2>
+              <p class="fw-bold">Online Courses</p>
+              <div class="separator"></div>
+            </div>
+            <div
+              class="col d-flex justify-content-between flex-column separator-container"
+            >
+              <h2>5k</h2>
+              <p class="fw-bold">Online Courses</p>
+              <div class="separator"></div>
+            </div>
+
+            <img
+              src="/images/plant1.png"
+              alt=""
+              srcset=""
+              class="d-none d-md-block"
+            />
+          </div>
+        </div>
+        <!-- end info section -->
+
+        <!-- COURSE SLIDER -->
+        <div class="mt-5 py-5 row overflow-hidden">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-md-6 col-7 d-flex flex-column">
+                <p class="text-muted">Remotely</p>
+                <h4 class="">Our Courses</h4>
+              </div>
+              <div
+                class="col-md-6 col-5 d-flex justify-content-end align-items-end"
+              >
+                <button class="btn btn-link">View All</button>
+              </div>
+            </div>
+            <div id="course-container" class="row mt-4 d-flex sliderRow">
+              <div class="col-md-3 col-12 course-slide">
+                <div class="card rounded-0 shadow-sm">
+                  <div class="card-body">
+                    <div
+                      class="d-flex justify-content-between rounded-0 position-relative courseBox mb-4"
+                      style="
+                        background-image: url(https://media.istockphoto.com/id/1353553203/photo/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-forest-trees-background.jpg?b=1&s=170667a&w=0&k=20&c=-jvR1WDwcloLXRgRTGeyG3frvrhPIbegdemeL6vY2Pk=);
+                      "
+                    >
+                      <p
+                        class="badge bg-primary bg-danger position-absolute end-0 m-2"
+                      >
+                        Promo
+                      </p>
+                    </div>
+                    <div class="d-flex mb-2 starRating">
+                      <p>
+                        <i class="fas fa-star color-accent"></i>
+                        <i class="fas fa-star color-accent"></i>
+                        <i class="fas fa-star color-accent"></i>
+                        <i class="fas fa-star text-secondary"></i>
+                        <i class="fas fa-star text-secondary"></i>
+                      </p>
+                    </div>
+
+                    <h6 class="fs-6">React JS</h6>
+                    <div class="d-flex my-4">
+                      <img
+                        src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=2000"
+                        alt="avatar"
+                        width="30px"
+                        height="30px"
+                        class="rounded-circle"
+                      />
+
+                      <p class="mx-2">
+                        By <span class="fw-bold"> Fam Digitale </span>
+                      </p>
+                    </div>
+                    <p class="d-flex justify-content-between">
+                      <span
+                        class="text-muted d-flex justify-content-center align-items-center"
+                      >
+                        <i class="fas fa-clock"></i>
+                        &nbsp; 5 &nbsp; /&nbsp;
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                        &nbsp; 10
+                      </span>
+                      <strong class="fw-bold">$5000</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 course-slide">
+                <div class="card rounded-0 shadow-sm">
+                  <div class="card-body">
+                    <div
+                      class="d-flex justify-content-between rounded-0 position-relative courseBox mb-4"
+                      style="
+                        background-image: url(https://media.istockphoto.com/id/1353553203/photo/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-forest-trees-background.jpg?b=1&s=170667a&w=0&k=20&c=-jvR1WDwcloLXRgRTGeyG3frvrhPIbegdemeL6vY2Pk=);
+                      "
+                    >
+                      <p
+                        class="badge bg-primary bg-danger position-absolute end-0 m-2"
+                      >
+                        Promo
+                      </p>
+                    </div>
+                    <div class="d-flex mb-2 starRating">
+                      <p>
+                        <i class="fas fa-star color-accent"></i>
+                        <i class="fas fa-star color-accent"></i>
+                        <i class="fas fa-star color-accent"></i>
+                        <i class="fas fa-star text-secondary"></i>
+                        <i class="fas fa-star text-secondary"></i>
+                      </p>
+                    </div>
+
+                    <h6 class="fs-6">React JS</h6>
+                    <div class="d-flex my-4">
+                      <img
+                        src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=2000"
+                        alt="avatar"
+                        width="30px"
+                        height="30px"
+                        class="rounded-circle"
+                      />
+
+                      <p class="mx-2">
+                        By <span class="fw-bold"> Fam Digitale </span>
+                      </p>
+                    </div>
+                    <p class="d-flex justify-content-between">
+                      <span
+                        class="text-muted d-flex justify-content-center align-items-center"
+                      >
+                        <i class="fas fa-clock"></i>
+                        &nbsp; 5 &nbsp; /&nbsp;
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                        &nbsp; 10
+                      </span>
+                      <strong class="fw-bold">$5000</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 course-slide">
+                <div class="card rounded-0 shadow-sm">
+                  <div class="card-body">
+                    <div
+                      class="d-flex justify-content-between rounded-0 position-relative courseBox mb-4"
+                      style="
+                        background-image: url(https://media.istockphoto.com/id/1353553203/photo/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-forest-trees-background.jpg?b=1&s=170667a&w=0&k=20&c=-jvR1WDwcloLXRgRTGeyG3frvrhPIbegdemeL6vY2Pk=);
+                      "
+                    >
+                      <p
+                        class="badge bg-primary bg-danger position-absolute end-0 m-2"
+                      >
+                        Promo
+                      </p>
+                    </div>
+                    <div class="d-flex mb-2 starRating">
+                      <p>
+                        <i class="fas fa-star color-accent"></i>
+                        <i class="fas fa-star color-accent"></i>
+                        <i class="fas fa-star color-accent"></i>
+                        <i class="fas fa-star text-secondary"></i>
+                        <i class="fas fa-star text-secondary"></i>
+                      </p>
+                    </div>
+
+                    <h6 class="fs-6">React JS</h6>
+                    <div class="d-flex my-4">
+                      <img
+                        src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=2000"
+                        alt="avatar"
+                        width="30px"
+                        height="30px"
+                        class="rounded-circle"
+                      />
+
+                      <p class="mx-2">
+                        By <span class="fw-bold"> Fam Digitale </span>
+                      </p>
+                    </div>
+                    <p class="d-flex justify-content-between">
+                      <span
+                        class="text-muted d-flex justify-content-center align-items-center"
+                      >
+                        <i class="fas fa-clock"></i>
+                        &nbsp; 5 &nbsp; /&nbsp;
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                        &nbsp; 10
+                      </span>
+                      <strong class="fw-bold">$5000</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 course-slide">
+                <div class="card rounded-0 shadow-sm">
+                  <div class="card-body">
+                    <div
+                      class="d-flex justify-content-between rounded-0 position-relative courseBox mb-4"
+                      style="
+                        background-image: url(https://media.istockphoto.com/id/1353553203/photo/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-forest-trees-background.jpg?b=1&s=170667a&w=0&k=20&c=-jvR1WDwcloLXRgRTGeyG3frvrhPIbegdemeL6vY2Pk=);
+                      "
+                    >
+                      <p
+                        class="badge bg-primary bg-danger position-absolute end-0 m-2"
+                      >
+                        Promo
+                      </p>
+                    </div>
+                    <div class="d-flex mb-2 starRating">
+                      <p>
+                        <i class="fas fa-star color-accent"></i>
+                        <i class="fas fa-star color-accent"></i>
+                        <i class="fas fa-star color-accent"></i>
+                        <i class="fas fa-star text-secondary"></i>
+                        <i class="fas fa-star text-secondary"></i>
+                      </p>
+                    </div>
+
+                    <h6 class="fs-6">React JS</h6>
+                    <div class="d-flex my-4">
+                      <img
+                        src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=2000"
+                        alt="avatar"
+                        width="30px"
+                        height="30px"
+                        class="rounded-circle"
+                      />
+
+                      <p class="mx-2">
+                        By <span class="fw-bold"> Fam Digitale </span>
+                      </p>
+                    </div>
+                    <p class="d-flex justify-content-between">
+                      <span
+                        class="text-muted d-flex justify-content-center align-items-center"
+                      >
+                        <i class="fas fa-clock"></i>
+                        &nbsp; 5 &nbsp; /&nbsp;
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                        &nbsp; 10
+                      </span>
+                      <strong class="fw-bold">$5000</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 course-slide">
+                <div class="card rounded-0 shadow-sm">
+                  <div class="card-body">
+                    <div
+                      class="d-flex justify-content-between rounded-0 position-relative courseBox mb-4"
+                      style="
+                        background-image: url(https://media.istockphoto.com/id/1353553203/photo/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-forest-trees-background.jpg?b=1&s=170667a&w=0&k=20&c=-jvR1WDwcloLXRgRTGeyG3frvrhPIbegdemeL6vY2Pk=);
+                      "
+                    >
+                      <p
+                        class="badge bg-primary bg-danger position-absolute end-0 m-2"
+                      >
+                        Promo
+                      </p>
+                    </div>
+                    <div class="d-flex mb-2 starRating">
+                      <p>
+                        <i class="fas fa-star color-accent"></i>
+                        <i class="fas fa-star color-accent"></i>
+                        <i class="fas fa-star color-accent"></i>
+                        <i class="fas fa-star text-secondary"></i>
+                        <i class="fas fa-star text-secondary"></i>
+                      </p>
+                    </div>
+
+                    <h6 class="fs-6">React JS</h6>
+                    <div class="d-flex my-4">
+                      <img
+                        src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=2000"
+                        alt="avatar"
+                        width="30px"
+                        height="30px"
+                        class="rounded-circle"
+                      />
+
+                      <p class="mx-2">
+                        By <span class="fw-bold"> Fam Digitale </span>
+                      </p>
+                    </div>
+                    <p class="d-flex justify-content-between">
+                      <span
+                        class="text-muted d-flex justify-content-center align-items-center"
+                      >
+                        <i class="fas fa-clock"></i>
+                        &nbsp; 5 &nbsp; /&nbsp;
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                        &nbsp; 10
+                      </span>
+                      <strong class="fw-bold">$5000</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-12 d-flex justify-content-end align-items-center">
+                <button
+                  id="course-arrow-prev"
+                  class="btn btn-outline-dark rounded-0 d-flex justify-content-center align-items-center mx-4 p-3"
+                >
+                  <i class="fas fa-arrow-left"></i>
+                </button>
+                <button
+                  id="course-arrow-next"
+                  class="btn btn-outline-dark rounded-0 d-flex justify-content-center align-items-center p-3"
+                >
+                  <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- steps  -->
+        <div class="mt-5 py-5 row overflow-hidden">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-md-6 col-7 d-flex flex-column">
+                <p class="text-muted">Remotely</p>
+                <h4 class="">Our Courses</h4>
+              </div>
+              <div
+                class="col-md-6 col-5 d-flex justify-content-end align-items-end"
+              >
+                <button class="btn btn-link">View All</button>
+              </div>
+            </div>
+            <div class="row">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 1520 851"
+              >
+                <defs>
+                  <style>
+                    .cls-1 {
+                      font-size: 22px;
+                      font-family: Montserrat-SemiBold, Montserrat;
+                      font-weight: 600;
+                    }
+                    .cls-2 {
+                      font-size: 18px;
+                      font-family: Montserrat-Regular, Montserrat;
+                    }
+                    .cls-3 {
+                      letter-spacing: -0.01em;
+                    }
+                    .cls-4 {
+                      letter-spacing: -0.01em;
+                    }
+                    .cls-5 {
+                      letter-spacing: 0.01em;
+                    }
+                    .cls-6 {
+                      letter-spacing: 0em;
+                    }
+                    .cls-7 {
+                      letter-spacing: -0.01em;
+                    }
+                    .cls-8 {
+                      letter-spacing: 0.01em;
+                    }
+                    .cls-9 {
+                      letter-spacing: -0.02em;
+                    }
+                    .cls-10 {
+                      letter-spacing: -0.02em;
+                    }
+                    .cls-11 {
+                      letter-spacing: -0.05em;
+                    }
+                    .cls-12 {
+                      letter-spacing: 0em;
+                    }
+                    .cls-13 {
+                      letter-spacing: -0.02em;
+                    }
+                    .cls-14 {
+                      letter-spacing: -0.01em;
+                    }
+                    .cls-15 {
+                      letter-spacing: 0em;
+                    }
+                    .cls-16 {
+                      letter-spacing: -0.01em;
+                    }
+                    .cls-17 {
+                      letter-spacing: 0em;
+                    }
+                    .cls-18 {
+                      letter-spacing: -0.01em;
+                    }
+                    .cls-19 {
+                      letter-spacing: 0em;
+                    }
+                    .cls-20 {
+                      letter-spacing: -0.02em;
+                    }
+                    .cls-21 {
+                      letter-spacing: -0.01em;
+                    }
+                    .cls-22 {
+                      letter-spacing: -0.04em;
+                    }
+                    .cls-23 {
+                      letter-spacing: 0.02em;
+                    }
+                    .cls-24 {
+                      letter-spacing: -0.01em;
+                    }
+                    .cls-25 {
+                      letter-spacing: 0em;
+                    }
+                    .cls-26,
+                    .cls-27 {
+                      font-size: 24px;
+                      font-family: Montserrat-Medium, Montserrat;
+                      font-weight: 500;
+                    }
+                    .cls-27 {
+                      letter-spacing: -0.01em;
+                    }
+                    .cls-28 {
+                      letter-spacing: 0em;
+                    }
+                  </style>
+                </defs>
+                <g id="steps_container" data-name="steps">
+                  <image
+                    width="1440"
+                    height="892"
+                    transform="translate(-55)"
+                    xlink:href="/images/steps.png"
+                  />
+                </g>
+                <g id="Layer_2" data-name="Layer 2">
+                  <text class="cls-1" transform="translate(768.28 59.28)">
+                    Signup
+                  </text>
+                  <text class="cls-2" transform="translate(768.28 90.28)">
+                    <tspan class="cls-3">L</tspan>
+                    <tspan x="10.46" y="0">o</tspan>
+                    <tspan class="cls-4" x="21.74" y="0">r</tspan>
+                    <tspan x="28.73" y="0">em ipsum dolor sit ame</tspan>
+                    <tspan class="cls-5" x="242.94" y="0">t</tspan>
+                    <tspan class="cls-6" x="250.43" y="0">,</tspan>
+                    <tspan class="cls-7" x="258.96" y="0">c</tspan>
+                    <tspan x="268.93" y="0">onse</tspan>
+                    <tspan class="cls-8" x="312.04" y="0">c</tspan>
+                    <tspan class="cls-9" x="322.29" y="0">t</tspan>
+                    <tspan x="329.25" y="0">etur adipis</tspan>
+                    <tspan class="cls-3" x="424.96" y="0">c</tspan>
+                    <tspan x="434.95" y="0">ing eli</tspan>
+                    <tspan class="cls-5" x="489.56" y="0">t</tspan>
+                    <tspan class="cls-6" x="497.04" y="0">.</tspan>
+                    <tspan x="0" y="21.6">Mae</tspan>
+                    <tspan class="cls-7" x="38.68" y="21.6">c</tspan>
+                    <tspan x="48.65" y="21.6">enas solli</tspan>
+                    <tspan class="cls-3" x="130.41" y="21.6">c</tspan>
+                    <tspan x="140.4" y="21.6">itudin eu nisi</tspan>
+                    <tspan class="cls-10" x="261.61" y="21.6">v</tspan>
+                    <tspan x="271.09" y="21.6">el pha</tspan>
+                    <tspan class="cls-4" x="326.52" y="21.6">r</tspan>
+                    <tspan x="333.5" y="21.6">et</tspan>
+                    <tspan class="cls-11" x="351.68" y="21.6">r</tspan>
+                    <tspan x="358.05" y="21.6">a.</tspan>
+                  </text>
+                  <text class="cls-1" transform="translate(936.28 205.28)">
+                    C
+                    <tspan class="cls-12" x="15.99" y="0">h</tspan>
+                    <tspan x="31.09" y="0">oose</tspan>
+                    <tspan class="cls-13" x="90.55" y="0">C</tspan>
+                    <tspan x="106.1" y="0">ourse</tspan>
+                    <tspan class="cls-14" x="175.6" y="0">P</tspan>
+                    <tspan class="cls-12" x="191.24" y="0">a</tspan>
+                    <tspan class="cls-15" x="204.62" y="0">c</tspan>
+                    <tspan class="cls-16" x="217.29" y="0">k</tspan>
+                    <tspan class="cls-17" x="231.06" y="0">a</tspan>
+                    <tspan x="244.44" y="0">ge</tspan>
+                  </text>
+                  <text class="cls-2" transform="translate(936.28 236.28)">
+                    <tspan class="cls-3">L</tspan>
+                    <tspan x="10.46" y="0">o</tspan>
+                    <tspan class="cls-4" x="21.74" y="0">r</tspan>
+                    <tspan x="28.73" y="0">em ipsum dolor sit ame</tspan>
+                    <tspan class="cls-5" x="242.94" y="0">t</tspan>
+                    <tspan class="cls-6" x="250.43" y="0">,</tspan>
+                    <tspan class="cls-7" x="258.96" y="0">c</tspan>
+                    <tspan x="268.93" y="0">onse</tspan>
+                    <tspan class="cls-8" x="312.04" y="0">c</tspan>
+                    <tspan class="cls-9" x="322.29" y="0">t</tspan>
+                    <tspan x="329.25" y="0">etur adipis</tspan>
+                    <tspan class="cls-3" x="424.96" y="0">c</tspan>
+                    <tspan x="434.95" y="0">ing eli</tspan>
+                    <tspan class="cls-5" x="489.56" y="0">t</tspan>
+                    <tspan class="cls-6" x="497.04" y="0">.</tspan>
+                    <tspan x="0" y="21.6">Mae</tspan>
+                    <tspan class="cls-7" x="38.68" y="21.6">c</tspan>
+                    <tspan x="48.65" y="21.6">enas solli</tspan>
+                    <tspan class="cls-3" x="130.41" y="21.6">c</tspan>
+                    <tspan x="140.4" y="21.6">itudin eu nisi</tspan>
+                    <tspan class="cls-10" x="261.61" y="21.6">v</tspan>
+                    <tspan x="271.09" y="21.6">el pha</tspan>
+                    <tspan class="cls-4" x="326.52" y="21.6">r</tspan>
+                    <tspan x="333.5" y="21.6">et</tspan>
+                    <tspan class="cls-11" x="351.68" y="21.6">r</tspan>
+                    <tspan x="358.05" y="21.6">a.</tspan>
+                  </text>
+                  <text class="cls-1" transform="translate(956.28 410.28)">
+                    Re
+                    <tspan class="cls-18" x="29.77" y="0">c</tspan>
+                    <tspan class="cls-19" x="42.37" y="0">ei</tspan>
+                    <tspan class="cls-20" x="62.41" y="0">v</tspan>
+                    <tspan x="74.8" y="0">e</tspan>
+                    <tspan class="cls-21" x="94.55" y="0">T</tspan>
+                    <tspan class="cls-22" x="107.51" y="0">r</tspan>
+                    <tspan x="115.81" y="0">aini</tspan>
+                    <tspan class="cls-12" x="156.95" y="0">n</tspan>
+                    <tspan x="172.04" y="0">g Link</tspan>
+                  </text>
+                  <text class="cls-2" transform="translate(956.28 441.28)">
+                    <tspan class="cls-3">L</tspan>
+                    <tspan x="10.46" y="0">o</tspan>
+                    <tspan class="cls-4" x="21.74" y="0">r</tspan>
+                    <tspan x="28.73" y="0">em ipsum dolor sit ame</tspan>
+                    <tspan class="cls-5" x="242.94" y="0">t</tspan>
+                    <tspan class="cls-6" x="250.43" y="0">,</tspan>
+                    <tspan class="cls-7" x="258.96" y="0">c</tspan>
+                    <tspan x="268.93" y="0">onse</tspan>
+                    <tspan class="cls-8" x="312.04" y="0">c</tspan>
+                    <tspan class="cls-9" x="322.29" y="0">t</tspan>
+                    <tspan x="329.25" y="0">etur adipis</tspan>
+                    <tspan class="cls-3" x="424.96" y="0">c</tspan>
+                    <tspan x="434.95" y="0">ing eli</tspan>
+                    <tspan class="cls-5" x="489.56" y="0">t</tspan>
+                    <tspan class="cls-6" x="497.04" y="0">.</tspan>
+                    <tspan x="0" y="21.6">Mae</tspan>
+                    <tspan class="cls-7" x="38.68" y="21.6">c</tspan>
+                    <tspan x="48.65" y="21.6">enas solli</tspan>
+                    <tspan class="cls-3" x="130.41" y="21.6">c</tspan>
+                    <tspan x="140.4" y="21.6">itudin eu nisi</tspan>
+                    <tspan class="cls-10" x="261.61" y="21.6">v</tspan>
+                    <tspan x="271.09" y="21.6">el pha</tspan>
+                    <tspan class="cls-4" x="326.52" y="21.6">r</tspan>
+                    <tspan x="333.5" y="21.6">et</tspan>
+                    <tspan class="cls-11" x="351.68" y="21.6">r</tspan>
+                    <tspan x="358.05" y="21.6">a.</tspan>
+                  </text>
+                  <text class="cls-1" transform="translate(921.28 613.28)">
+                    Sta
+                    <tspan class="cls-23" x="36.52" y="0">r</tspan>
+                    <tspan x="46.09" y="0">t</tspan>
+                    <tspan class="cls-13" x="61.49" y="0">C</tspan>
+                    <tspan class="cls-19" x="77.04" y="0">ourse</tspan>
+                  </text>
+                  <text class="cls-2" transform="translate(921.28 644.28)">
+                    <tspan class="cls-3">L</tspan>
+                    <tspan x="10.46" y="0">o</tspan>
+                    <tspan class="cls-4" x="21.74" y="0">r</tspan>
+                    <tspan x="28.73" y="0">em ipsum dolor sit ame</tspan>
+                    <tspan class="cls-5" x="242.94" y="0">t</tspan>
+                    <tspan class="cls-6" x="250.43" y="0">,</tspan>
+                    <tspan class="cls-7" x="258.96" y="0">c</tspan>
+                    <tspan x="268.93" y="0">onse</tspan>
+                    <tspan class="cls-8" x="312.04" y="0">c</tspan>
+                    <tspan class="cls-9" x="322.29" y="0">t</tspan>
+                    <tspan x="329.25" y="0">etur adipis</tspan>
+                    <tspan class="cls-3" x="424.96" y="0">c</tspan>
+                    <tspan x="434.95" y="0">ing eli</tspan>
+                    <tspan class="cls-5" x="489.56" y="0">t</tspan>
+                    <tspan class="cls-6" x="497.04" y="0">.</tspan>
+                    <tspan x="0" y="21.6">Mae</tspan>
+                    <tspan class="cls-7" x="38.68" y="21.6">c</tspan>
+                    <tspan x="48.65" y="21.6">enas solli</tspan>
+                    <tspan class="cls-3" x="130.41" y="21.6">c</tspan>
+                    <tspan x="140.4" y="21.6">itudin eu nisi</tspan>
+                    <tspan class="cls-10" x="261.61" y="21.6">v</tspan>
+                    <tspan x="271.09" y="21.6">el pha</tspan>
+                    <tspan class="cls-4" x="326.52" y="21.6">r</tspan>
+                    <tspan x="333.5" y="21.6">et</tspan>
+                    <tspan class="cls-11" x="351.68" y="21.6">r</tspan>
+                    <tspan x="358.05" y="21.6">a.</tspan>
+                  </text>
+                  <text class="cls-1" transform="translate(732.28 767.28)">
+                    Job Res
+                    <tspan class="cls-20" x="88.04" y="0">e</tspan>
+                    <tspan x="101.4" y="0">a</tspan>
+                    <tspan class="cls-16" x="114.75" y="0">r</tspan>
+                    <tspan class="cls-24" x="123.77" y="0">c</tspan>
+                    <tspan x="136.44" y="0">h a</tspan>
+                    <tspan class="cls-12" x="170.94" y="0">n</tspan>
+                    <tspan class="cls-25" x="186.03" y="0">d application</tspan>
+                  </text>
+                  <text class="cls-2" transform="translate(732.28 798.28)">
+                    <tspan class="cls-3">L</tspan>
+                    <tspan x="10.46" y="0">o</tspan>
+                    <tspan class="cls-4" x="21.74" y="0">r</tspan>
+                    <tspan x="28.73" y="0">em ipsum dolor sit ame</tspan>
+                    <tspan class="cls-5" x="242.94" y="0">t</tspan>
+                    <tspan class="cls-6" x="250.43" y="0">,</tspan>
+                    <tspan class="cls-7" x="258.96" y="0">c</tspan>
+                    <tspan x="268.93" y="0">onse</tspan>
+                    <tspan class="cls-8" x="312.04" y="0">c</tspan>
+                    <tspan class="cls-9" x="322.29" y="0">t</tspan>
+                    <tspan x="329.25" y="0">etur adipis</tspan>
+                    <tspan class="cls-3" x="424.96" y="0">c</tspan>
+                    <tspan x="434.95" y="0">ing eli</tspan>
+                    <tspan class="cls-5" x="489.56" y="0">t</tspan>
+                    <tspan class="cls-6" x="497.04" y="0">.</tspan>
+                    <tspan x="0" y="21.6">Mae</tspan>
+                    <tspan class="cls-7" x="38.68" y="21.6">c</tspan>
+                    <tspan x="48.65" y="21.6">enas solli</tspan>
+                    <tspan class="cls-3" x="130.41" y="21.6">c</tspan>
+                    <tspan x="140.4" y="21.6">itudin eu nisi</tspan>
+                    <tspan class="cls-10" x="261.61" y="21.6">v</tspan>
+                    <tspan x="271.09" y="21.6">el pha</tspan>
+                    <tspan class="cls-4" x="326.52" y="21.6">r</tspan>
+                    <tspan x="333.5" y="21.6">et</tspan>
+                    <tspan class="cls-11" x="351.68" y="21.6">r</tspan>
+                    <tspan x="358.05" y="21.6">a.</tspan>
+                  </text>
+                  <text class="cls-26" transform="translate(536.28 68.12)">
+                    01
+                  </text>
+                  <text class="cls-26" transform="translate(700.28 216.12)">
+                    02
+                  </text>
+                  <text class="cls-27" transform="translate(756.28 415.12)">
+                    0
+                    <tspan class="cls-28" x="15.77" y="0">3</tspan>
+                  </text>
+                  <text class="cls-26" transform="translate(713.28 619.12)">
+                    04
+                  </text>
+                  <text class="cls-26" transform="translate(532.28 780.12)">
+                    05
+                  </text>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- END CLASS SLIDER -->
+        <div class="mt-0 mt-md-4 py-5 row overflow-hidden">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-6 d-flex flex-column">
+                <p class="text-muted">DEMOS</p>
+                <h4 class="">Our Demo Classes</h4>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-end">
+                <button class="btn btn-link">View All</button>
+              </div>
+            </div>
+            <div id="demo-container" class="row mt-4 d-flex sliderRow">
+              <div class="col-md-3 col-12 demo-slide">
+                <div class="card rounded-0 shadow-sm">
+                  <div
+                    class="card-body classBox"
+                    style="
+                      background-image: url(https://media.istockphoto.com/id/1353553203/photo/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-forest-trees-background.jpg?b=1&s=170667a&w=0&k=20&c=-jvR1WDwcloLXRgRTGeyG3frvrhPIbegdemeL6vY2Pk=);
+                    "
+                  >
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-end">
+                        <img
+                          src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=2000"
+                          alt="avatar"
+                          width="30px"
+                          height="30px"
+                          class="rounded-circle border border-light"
+                        />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="bg-danger rounded-circle">
+                        <p>
+                          <i class="fas fa-play text-white p-3"></i>
+                        </p>
+                      </div>
+                      <h6 class="fs-6 text-white col-12 mt-2">React JS</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 demo-slide">
+                <div class="card rounded-0 shadow-sm">
+                  <div
+                    class="card-body classBox"
+                    style="
+                      background-image: url(https://media.istockphoto.com/id/1353553203/photo/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-forest-trees-background.jpg?b=1&s=170667a&w=0&k=20&c=-jvR1WDwcloLXRgRTGeyG3frvrhPIbegdemeL6vY2Pk=);
+                    "
+                  >
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-end">
+                        <img
+                          src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=2000"
+                          alt="avatar"
+                          width="30px"
+                          height="30px"
+                          class="rounded-circle border border-light"
+                        />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="bg-danger rounded-circle">
+                        <p>
+                          <i class="fas fa-play text-white p-3"></i>
+                        </p>
+                      </div>
+                      <h6 class="fs-6 text-white col-12 mt-2">React JS</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 demo-slide">
+                <div class="card rounded-0 shadow-sm">
+                  <div
+                    class="card-body classBox"
+                    style="
+                      background-image: url(https://media.istockphoto.com/id/1353553203/photo/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-forest-trees-background.jpg?b=1&s=170667a&w=0&k=20&c=-jvR1WDwcloLXRgRTGeyG3frvrhPIbegdemeL6vY2Pk=);
+                    "
+                  >
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-end">
+                        <img
+                          src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=2000"
+                          alt="avatar"
+                          width="30px"
+                          height="30px"
+                          class="rounded-circle border border-light"
+                        />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="bg-danger rounded-circle">
+                        <p>
+                          <i class="fas fa-play text-white p-3"></i>
+                        </p>
+                      </div>
+                      <h6 class="fs-6 text-white col-12 mt-2">React JS</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 demo-slide">
+                <div class="card rounded-0 shadow-sm">
+                  <div
+                    class="card-body classBox"
+                    style="
+                      background-image: url(https://media.istockphoto.com/id/1353553203/photo/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-forest-trees-background.jpg?b=1&s=170667a&w=0&k=20&c=-jvR1WDwcloLXRgRTGeyG3frvrhPIbegdemeL6vY2Pk=);
+                    "
+                  >
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-end">
+                        <img
+                          src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=2000"
+                          alt="avatar"
+                          width="30px"
+                          height="30px"
+                          class="rounded-circle border border-light"
+                        />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="bg-danger rounded-circle">
+                        <p>
+                          <i class="fas fa-play text-white p-3"></i>
+                        </p>
+                      </div>
+                      <h6 class="fs-6 text-white col-12 mt-2">React JS</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 demo-slide">
+                <div class="card rounded-0 shadow-sm">
+                  <div
+                    class="card-body classBox"
+                    style="
+                      background-image: url(https://media.istockphoto.com/id/1353553203/photo/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-forest-trees-background.jpg?b=1&s=170667a&w=0&k=20&c=-jvR1WDwcloLXRgRTGeyG3frvrhPIbegdemeL6vY2Pk=);
+                    "
+                  >
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-end">
+                        <img
+                          src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=2000"
+                          alt="avatar"
+                          width="30px"
+                          height="30px"
+                          class="rounded-circle border border-light"
+                        />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="bg-danger rounded-circle">
+                        <p>
+                          <i class="fas fa-play text-white p-3"></i>
+                        </p>
+                      </div>
+                      <h6 class="fs-6 text-white col-12 mt-2">React JS</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 demo-slide">
+                <div class="card rounded-0 shadow-sm">
+                  <div
+                    class="card-body classBox"
+                    style="
+                      background-image: url(https://media.istockphoto.com/id/1353553203/photo/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-forest-trees-background.jpg?b=1&s=170667a&w=0&k=20&c=-jvR1WDwcloLXRgRTGeyG3frvrhPIbegdemeL6vY2Pk=);
+                    "
+                  >
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-end">
+                        <img
+                          src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=2000"
+                          alt="avatar"
+                          width="30px"
+                          height="30px"
+                          class="rounded-circle border border-light"
+                        />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="bg-danger rounded-circle">
+                        <p>
+                          <i class="fas fa-play text-white p-3"></i>
+                        </p>
+                      </div>
+                      <h6 class="fs-6 text-white col-12 mt-2">React JS</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 demo-slide">
+                <div class="card rounded-0 shadow-sm">
+                  <div
+                    class="card-body classBox"
+                    style="
+                      background-image: url(https://media.istockphoto.com/id/1353553203/photo/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-forest-trees-background.jpg?b=1&s=170667a&w=0&k=20&c=-jvR1WDwcloLXRgRTGeyG3frvrhPIbegdemeL6vY2Pk=);
+                    "
+                  >
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-end">
+                        <img
+                          src="https://img.freepik.com/photos-gratuite/portrait-homme-blanc-isole_53876-40306.jpg?w=2000"
+                          alt="avatar"
+                          width="30px"
+                          height="30px"
+                          class="rounded-circle border border-light"
+                        />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="bg-danger rounded-circle">
+                        <p>
+                          <i class="fas fa-play text-white p-3"></i>
+                        </p>
+                      </div>
+                      <h6 class="fs-6 text-white col-12 mt-2">React JS</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-2">
+              <div class="col-12 d-flex justify-content-end align-items-center">
+                <button
+                  id="demo-arrow-prev"
+                  class="btn btn-outline-dark rounded-0 d-flex justify-content-center align-items-center mx-4 p-3"
+                >
+                  <i class="fas fa-arrow-left"></i>
+                </button>
+                <button
+                  id="demo-arrow-next"
+                  class="btn btn-outline-dark rounded-0 d-flex justify-content-center align-items-center p-3"
+                >
+                  <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END CLASS SLIDER -->
+        <div class="mt-5 py-5 row overflow-hidden">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-md-6 col-12 d-flex flex-column">
+                <p class="text-muted">SERVICES</p>
+                <h4 class="">
+                  Amazing Services <br />
+                  For You
+                </h4>
+              </div>
+            </div>
+            <div class="row servicesContainer">
+              <div
+                class="d-flex justify-content-center flex-column align-items-center text-center p-md-5 p-2 bg-white border service-container"
+              >
+                <span
+                  class="serviceIcon"
+                  style="
+                    background-color: #f4fbfa;
+                    color: #67bbb6;
+                    border-color: #67bbb6;
+                  "
+                >
+                  <i class="fas fa-file"></i>
+                </span>
+                <h6>Resume<br />Preparation</h6>
+                <p class="px-2 mt-4 mb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptates, quae.
+                </p>
+                <img src="/images/circles.png" class="assets-circles" />
+              </div>
+
+              <div
+                class="d-flex justify-content-center flex-column align-items-center text-center p-md-5 p-2 bg-white border service-container"
+              >
+                <span
+                  class="serviceIcon"
+                  style="
+                    background-color: #fef5f4;
+                    color: #ef6651;
+                    border-color: #ef6651;
+                  "
+                >
+                  <i class="fas fa-briefcase"></i>
+                </span>
+                <h6>Job Interview<br />Preparation</h6>
+                <p class="px-2 mt-4 mb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptates, quae.
+                </p>
+                <img src="/images/circles.png" class="assets-circles" />
+              </div>
+              <div
+                class="d-flex justify-content-center flex-column align-items-center text-center p-md-5 p-2 bg-white border service-container"
+              >
+                <span
+                  class="serviceIcon"
+                  style="
+                    background-color: #f2f2f1;
+                    color: #282117;
+                    border-color: #282117;
+                  "
+                >
+                  <i class="fas fa-walking fs-6"></i>
+                </span>
+                <h6>Carreer<br />Coaching</h6>
+                <p class="px-2 mt-4 mb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptates, quae.
+                </p>
+                <img src="/images/circles.png" class="assets-circles" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- TESTIMONIAL SLIDER -->
+        <div class="mt-md-4 mt-1 py-5 row overflow-hidden">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-md-6 col-12 d-flex flex-column">
+                <p class="text-muted">TESTIMONIALS</p>
+                <h4 class="">
+                  Placement Across <br />
+                  the Industry
+                </h4>
+              </div>
+            </div>
+            <div class="row m-md-2 m-1 bg-white testimonial-box mt-4">
+              <div class="col-md-2 col-12 p-2">
+                <div class="testimonial-selector">
+                  <div class="testimonial-selector-arrows">
+                    <button class="testimonial-selector-prev">
+                      <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </button>
+                    <button class="testimonial-selector-next">
+                      <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <img
+                    src="https://i.pinimg.com/564x/31/44/7e/31447e25b7bc3429f83520350ed13c15.jpg"
+                    alt=""
+                    srcset=""
+                    class="faded-img"
+                  />
+                  <img
+                    src="https://i.pinimg.com/564x/31/44/7e/31447e25b7bc3429f83520350ed13c15.jpg"
+                    alt=""
+                    srcset=""
+                    class="sub-img"
+                  />
+                  <img
+                    src="https://i.pinimg.com/564x/31/44/7e/31447e25b7bc3429f83520350ed13c15.jpg"
+                    alt=""
+                    srcset=""
+                    class="selected-img"
+                  />
+                  <img
+                    src="https://i.pinimg.com/564x/31/44/7e/31447e25b7bc3429f83520350ed13c15.jpg"
+                    alt=""
+                    srcset=""
+                    class="sub-img"
+                  />
+                  <img
+                    src="https://i.pinimg.com/564x/31/44/7e/31447e25b7bc3429f83520350ed13c15.jpg"
+                    alt=""
+                    srcset=""
+                    class="faded-img"
+                  />
+                </div>
+              </div>
+              <div class="col-md-7 col-12 testimonial-content">
+                <div class="row p-md-5 p-3">
+                  <h5 class="col-12">Testmonial</h5>
+                  <p class="col-12 mt-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Distinctio ab maxime quibusdam laborum nobis nihil sint
+                    sequi doloribus qui debitis suscipit sunt quaerat vel
+                    temporibus facere saepe, totam asperiores corrupti. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit.
+                    Distinctio ab maxime quibusdam laborum nobis nihil sint
+                    sequi doloribus qui debitis suscipit sunt quaerat vel
+                    temporibus facere saepe, totam asperiores corrupti.
+                  </p>
+                  <div class="d-flex my-4"></div>
+                </div>
+              </div>
+              <div
+                class="col-md-3 col-12 d-flex align-items-center flex-column py-3 px-1 testimonial-user"
+              >
+                <img
+                  src="https://i.pinimg.com/564x/31/44/7e/31447e25b7bc3429f83520350ed13c15.jpg"
+                  alt=""
+                  srcset=""
+                  width="75px"
+                  class="border border-dark border-4 rounded-circle"
+                />
+                <h6 class="mt-3">Amelia Kimani</h6>
+                <p class="mt-3">Placed - tinder</p>
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Logo-Tinder.svg/2560px-Logo-Tinder.svg.png"
+                  alt=""
+                  srcset=""
+                  width="75px"
+                  class="mt-3"
+                />
+                <div class="testimonialBox">
+                  <div>
+                    <strong> Javascript </strong>
+                    <p>Course</p>
+                  </div>
+                  <div>
+                    <strong> Javascript </strong>
+                    <p>Course</p>
+                  </div>
+                  <div>
+                    <strong> Javascript </strong>
+                    <p>Course</p>
+                  </div>
+                  <div>
+                    <strong> Javascript </strong>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- OFFER SLIDER -->
+        <div class="mt-md-4 mt-1 py-5 row overflow-hidden">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-md-6 col-12 d-flex flex-column">
+                <p class="text-muted">OFFERS</p>
+                <h4 class="">We have Offers</h4>
+              </div>
+            </div>
+            <div class="row offersContainer" id="offer-container">
+              <img src="/images/lines.png" class="assets-line" />
+              <div
+                class="p-3 py-5 bg-white border d-flex flex-column align-items-start offerBox offer-slide"
+              >
+                <img
+                  src="/images/offers/offer1.png"
+                  width="300"
+                  class="offerImage"
+                />
+
+                <span class="text-muted fs-6"> SPECIAL OFFER </span>
+                <span
+                  class="badge bg-danger text-white ms-2 fs-1 rounded-0 p-2"
+                >
+                  50% OFF
+                </span>
+                <span class="text-muted fs-6 mt-3">
+                  Signup now and get discount<br />
+                  of 50% on all courses
+                </span>
+                <button class="btn btn-outline-secondary rounded-0 mt-3">
+                  Signup Now
+                </button>
+              </div>
+              <div
+                class="p-3 py-5 bg-white border d-flex flex-column align-items-start offerBox offer-slide"
+              >
+                <img
+                  src="/images/offers/offer1.png"
+                  width="300"
+                  class="offerImage"
+                />
+
+                <span class="text-muted fs-6"> SPECIAL OFFER </span>
+                <span
+                  class="badge bg-danger text-white ms-2 fs-1 rounded-0 p-2"
+                >
+                  50% OFF
+                </span>
+                <span class="text-muted fs-6 mt-3">
+                  Signup now and get discount<br />
+                  of 50% on all courses
+                </span>
+                <button class="btn btn-outline-secondary rounded-0 mt-3">
+                  Signup Now
+                </button>
+              </div>
+              <div
+                class="p-3 py-5 bg-white border d-flex flex-column align-items-start offerBox offer-slide"
+              >
+                <img
+                  src="/images/offers/offer1.png"
+                  width="300"
+                  class="offerImage"
+                />
+
+                <span class="text-muted fs-6"> SPECIAL OFFER </span>
+                <span
+                  class="badge bg-danger text-white ms-2 fs-1 rounded-0 p-2"
+                >
+                  50% OFF
+                </span>
+                <span class="text-muted fs-6 mt-3">
+                  Signup now and get discount<br />
+                  of 50% on all courses
+                </span>
+                <button class="btn btn-outline-secondary rounded-0 mt-3">
+                  Signup Now
+                </button>
+              </div>
+              <div
+                class="p-3 py-5 bg-white border d-flex flex-column align-items-start offerBox offer-slide"
+              >
+                <img
+                  src="/images/offers/offer1.png"
+                  width="300"
+                  class="offerImage"
+                />
+
+                <span class="text-muted fs-6"> SPECIAL OFFER </span>
+                <span
+                  class="badge bg-danger text-white ms-2 fs-1 rounded-0 p-2"
+                >
+                  50% OFF
+                </span>
+                <span class="text-muted fs-6 mt-3">
+                  Signup now and get discount<br />
+                  of 50% on all courses
+                </span>
+                <button class="btn btn-outline-secondary rounded-0 mt-3">
+                  Signup Now
+                </button>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-12 d-flex justify-content-end align-items-center">
+                <button
+                  id="offer-arrow-prev"
+                  class="btn btn-outline-dark rounded-0 d-flex justify-content-center align-items-center mx-4 p-3"
+                >
+                  <i class="fas fa-arrow-left"></i>
+                </button>
+                <button
+                  id="offer-arrow-next"
+                  class="btn btn-outline-dark rounded-0 d-flex justify-content-center align-items-center p-3"
+                >
+                  <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END OFFER SLIDER -->
+        <!-- GLOBAL REACH -->
+        <div class="mt-md-4 mt-1 py-5 row overflow-hidden">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-md-6 col-12 d-flex flex-column">
+                <p class="text-muted">UPDATES</p>
+                <h4 class="">Our Global Reach</h4>
+                <p class="mt-2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  vitae maximus magna. In vestibulum, metus ac dapibus placerat,
+                  ligula tellus scelerisque turpis, non laoreet risus ex non
+                  sapien.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 global-info">
+              <div class="row mt-3">
+                <div class="col-md-2 col-6 d-flex flex-column reach-separator">
+                  <h2>40M</h2>
+                  <p class="fw-bold">Online Courses</p>
+                </div>
+                <div class="col-md-2 col-6 d-flex flex-column reach-separator">
+                  <h2>70K</h2>
+                  <p class="fw-bold">Instructors</p>
+                </div>
+                <div class="col-md-2 col-6 d-flex flex-column reach-separator">
+                  <h2>480M</h2>
+                  <p class="fw-bold">Students</p>
+                </div>
+                <div class="col-md-2 col-6 d-flex flex-column reach-separator">
+                  <h2>115M</h2>
+                  <p class="fw-bold">Minute of video</p>
+                </div>
+                <div class="col-md-2 col-6 d-flex flex-column">
+                  <h2>10</h2>
+                  <p class="fw-bold">languages</p>
+                </div>
+                <div class="col-md-2 col-6 d-flex flex-column">
+                  <img src="/images/plant2.png" alt="" srcset="" width="75" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/caroussel.js"></script>
+    <script src="/js/video-player.js"></script>
+  </body>
+</html>
